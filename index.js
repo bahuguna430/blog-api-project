@@ -102,6 +102,4 @@ app.delete("/posts/:id", (req, res) => {
   res.json({ message: "Post deleted successfully" });
 });
 
-app.listen(port, () => {
-  console.log(`API is running at http://localhost:${port}`);
-});
+export default app;
